@@ -3,18 +3,17 @@
 #mostrar el texto 'El número es IMPAR'.
 
 
-
+# ingresamos un numero entero que se mostraria por pantalla
 numero = int(input("Ingrese un número entero: "))
 
-try:
-    numero = int(numero)
-except ValueError:
-    print("El valor ingresado no es un número entero válido.")
-
+#evaluamos si nuestro numero entero es par o impar
+# para eso le aplicamos resolucion modulo, si su resultado
+# es igual a cero es par sino es impar
 
 if numero % 2 == 0:
+    #resul. igual a 0
     print("El número es PAR")
 else:
+    #resul. distinto de cero
     print("El número es IMPAR")
 
-print ("vamos los pibes")
