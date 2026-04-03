@@ -8,7 +8,7 @@ sumatoria_negativos = 0
 
 for x in range(8):
     numero = int(input("Ingrese un número entre -10 y 10: "))
-    while numero not in range(-11, 11):
+    while numero not in range(-10, 11):
         numero = int(input("El número no se encuentra entre -10 y 10. Ingrese otro: "))
     lista_numeros.append(numero)
 print(f"Lista de números: {lista_numeros}")
