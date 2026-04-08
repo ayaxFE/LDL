@@ -1,0 +1,24 @@
+Situación Problemática 
+Se desea modelar un cliente de correo electrónico básico similar a Outlook Express, 
+Windows Mail, Thunderbird, etc. 
+Este cliente de correo está simplificado, así que solamente administrará una sola cuenta de 
+correo electrónico y contactos. Los mensajes deben estar organizados en una carpeta de 
+“correos recibidos” o de “correos enviados”, según sea el caso. 
+De cada email se conoce el asunto, el texto o mensaje, si está leído o no, el remitente y el 
+destinatario (puede ser sólo uno o más). 
+De la cuenta se conoce el nombre de usuario, la dirección de mail, la dirección del servidor 
+de entrada y del servidor de salida. 
+De cada contacto se conoce su nombre, apellido y dirección de mail. 
+El cliente de correo tiene la siguiente funcionalidad: 
+• Cantidad de correos -> retorna la cantidad total de correos (recibidos + enviados). 
+• Cantidad de correos recibidos -> retorna la cantidad total de correos recibidos. 
+• Cantidad de correos enviados -> retorna la cantidad total de correos enviados. 
+• Cantidad de correos no leídos -> retorna la cantidad total de correos no leídos de la 
+carpeta recibidos. 
+• Cantidad de contactos - > retorna la cantidad total de contactos. 
+• AgregarCorreoRecibido(Correo unCorreo) -> simula la recepción de un correo. 
+Agrega un nuevo correo a la carpeta de recibidos. 
+• EnviarCorreo(Correo unCorreo) -> simula el envío de un correo. Agrega un nuevo 
+correo a la carpeta de “enviados”. 
+• AgregarContacto (Contacto unContacto) -> simula la incorporación de un nuevo 
+contacto a la agenda. 
