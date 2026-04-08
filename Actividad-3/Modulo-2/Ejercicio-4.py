@@ -7,6 +7,7 @@
 #si el usuario ingresa un String genera error de tipo
 #si o si se tendra que ingresar un Int
 #equivalente al Try Catch (Java POO)
+
 def solicitar_numero(mensaje):
     "Solicitar numero al usuario"
     #bucle infinito hasta que se ingrese un Int
@@ -19,6 +20,7 @@ def solicitar_numero(mensaje):
             print("Entrada inválidad, ingresar un número entero")
 
 # ingresamos un numero entero que se mostraria por pantalla
+
 numero = int(input("Ingrese un número entero: "))
 
 #evaluamos si nuestro numero entero es par o impar
