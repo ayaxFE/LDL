@@ -1,0 +1,6 @@
+#1.Escribir un programa que solicite el ingreso de dos números enteros y que
+#imprima el resultado de la suma, resta, multiplicación, cociente y resto de la
+#división.
+
+#2. Escribir un programa que solicite el ingreso de un número entero e informe si el
+#valor leído es o no mayor que el número 10.
