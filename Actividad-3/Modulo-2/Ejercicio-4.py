@@ -3,6 +3,21 @@
 #mostrar el texto 'El número es IMPAR'.
 
 
+#evitamos incongruencia de tipo de datos
+#si el usuario ingresa un String genera error de tipo
+#si o si se tendra que ingresar un Int
+#equivalente al Try Catch (Java POO)
+def solicitar_numero(mensaje):
+    "Solicitar numero al usuario"
+    #bucle infinito hasta que se ingrese un Int
+    while True: 
+        try:
+            #evualua, si es correcto cierra bucle
+            return int(input(mensaje))
+        except ValueError:
+            #si el error ocurre mostrar
+            print("Entrada inválidad, ingresar un número entero")
+
 # ingresamos un numero entero que se mostraria por pantalla
 numero = int(input("Ingrese un número entero: "))
 
